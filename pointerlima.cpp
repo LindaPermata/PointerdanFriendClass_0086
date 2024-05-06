@@ -19,3 +19,8 @@ pelajar() { nilai = 100; }
 friend void manusia::showNilaiPelajar(pelajar &x);
 };
 
+void manusia::showNilaiPelajar(pelajar &x)
+{
+    std::cout << x.nilai;
+}
+
